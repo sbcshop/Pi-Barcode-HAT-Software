@@ -7,13 +7,11 @@
 ## Setup Pi Barcode HAT
 First, you need to change the mode of the Pi Barcode HAT. Put Barcode HAT at the top of the raspberry pi, then you need to scan the below barcode settings before running the code 
  * Mode is TTL/RS232 (serial communication interface(UART)) for this you need to scan below the barcode, Connect USB to pico barcode hat.
-
-   
+  
 <img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/ttl_rs232.JPG" />
    
  * Change the baud rate to (9600) for this you need to scan the below barcode by pressing the scan button on the Pico Barcode Hat
 
-  
  <img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/baudrate.JPG" />
    
 

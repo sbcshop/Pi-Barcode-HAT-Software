@@ -1,7 +1,7 @@
 # Pi-Barcode-HAT
 
 <img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/img2.png" />
-<img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/img2.png" />
+<img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/img1.png" />
 
 ### Barcode HAT for Raspberry Pi is a robust and compact barcode scanner board that consists of a DE2120 scanner module, buzzer, 1.14” LCD screen, micro-USB port. It is designed to scan 20 different barcode symbologies in the segment of both 1D and 2D symbology like barcodes and QR codes.
 
@@ -26,7 +26,7 @@ For this you need to scan below barcode settings
 
 ## Applications
 First of all, move all the files from the applications folder to the outside folder that is the Pi-Barcode-HAT folder, then run the main file
-* Pins of ultrasonic sensor (we use of this sensor to avoid press push button to scan the barcode ) 
+* Pins of the ultrasonic sensor (we use this sensor to avoid pressing the push button to scan the barcode ) 
    * Trig is connected to GPIO 4
    * Echo is connected to GPIO 17
 * Servo motor

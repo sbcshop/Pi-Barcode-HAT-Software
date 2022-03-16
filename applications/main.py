@@ -1,5 +1,6 @@
  #!/usr/bin/python
 # -*- coding: UTF-8 -*-
+# servo motor is connected to GPIO 2
 #import chardet
 import os
 import sys 
@@ -16,7 +17,7 @@ GPIO.setwarnings(False)
 GPIO.setup(26, GPIO.OUT)
 GPIO.setup(2, GPIO.OUT)
 
-servo = 2
+servo = 2 # servo motor is connected to GPIO 2
 GPIO.setup(servo,GPIO.OUT)
 
 

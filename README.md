@@ -26,8 +26,8 @@ For this you need to scan below barcode settings
 ## Applications
 First of all move all the files from applications folder to outside folder that is Pi-Barcode-HAT folder, then run the main file
 * Pins of ultrasonic sensor 
-   * Trig is connected to GPIO
-   * Echo is connected to GPIO
+   * Trig is connected to GPIO 4
+   * Echo is connected to GPIO 17
 * Servo motor
    * Servo motor pin is connected to GPIO 2
 

@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# Trigger is connected to raspberry pi GPIO 4, echo is connected to GPIO 17
 import RPi.GPIO as GPIO
 import time
 
@@ -7,8 +8,8 @@ def start():
             GPIO.setmode(GPIO.BCM)
             #GPIO.setmode(GPIO.BOARD)
             GPIO.setwarnings(False)
-            PIN_TRIGGER = 4
-            PIN_ECHO = 17
+            PIN_TRIGGER = 4 #GPIO 4
+            PIN_ECHO = 17   # GPIO 17
 
             GPIO.setup(PIN_TRIGGER, GPIO.OUT)
             GPIO.setup(PIN_ECHO, GPIO.IN)

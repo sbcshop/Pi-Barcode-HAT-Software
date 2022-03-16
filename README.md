@@ -18,6 +18,16 @@ First, you need to change the mode of the Pi Barcode HAT. Put Barcode HAT at the
 ## Working
 <img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/img6.JPG" />
 
+## Working of Applications 
+  * Smart shopping
+  <img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/img1.JPG" />
+  
+  * Smart Library Management System
+  <img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/img4.JPG" />
+  
+  * Smart Attendence System
+  <img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/img2.JPG" />
+
    
 
 

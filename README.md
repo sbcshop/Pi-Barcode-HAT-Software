@@ -13,6 +13,11 @@ First, you need to change the mode of the Pi Barcode HAT. Put Barcode HAT at the
  * Change the baud rate to (9600) for this you need to scan the below barcode by pressing the scan button on the Pico Barcode Hat
 
  <img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/baudrate.JPG" />
+
+
+## Working
+<img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/img6.JPG" />
+
    
 
 

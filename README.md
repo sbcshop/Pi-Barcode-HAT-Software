@@ -25,7 +25,7 @@ For this you need to scan below barcode settings
 <img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/img6.JPG" />
 
 ## Applications
-First of all, move all the files from the applications folder to the outside folder which is the Pi-Barcode-HAT folder, then run the main file
+First of all, move all the files from the applications folder to the outside folder which is the Pi-Barcode-HAT folder, so that main.py could access the files in the lib sub-directory
 * Pins of the ultrasonic sensor (we use this sensor to avoid pressing the push button to scan the barcode ) 
    * Trig is connected to GPIO 4
    * Echo is connected to GPIO 17

@@ -3,7 +3,7 @@ import time
 import serial
 import os
 from lib import lcd1_14driver
-from PIL import Image,ImageDraw,Imagefont
+from PIL import Image,ImageDraw,ImageFont
 
 
 RST = 27
@@ -14,9 +14,9 @@ device = 0
 
 barcode = serial.Serial(port='/dev/ttyS0',baudrate = 9600,parity=serial.PARITY_NONE,stopbits=serial.STOPBITS_ONE,bytesize=serial.EIGHTBITS,timeout=1)
 
-font1 = Imagefont.truetype("font/font00.ttf",25)
-font2 = Imagefont.truetype("font/font00.ttf",16)
-font3 = Imagefont.truetype("font/font02.ttf",25)
+font1 = ImageFont.truetype("font/font00.ttf",25)
+font2 = ImageFont.truetype("font/font00.ttf",16)
+font3 = ImageFont.truetype("font/font02.ttf",25)
 
 if not os.path.isfile("present_students.txt"):  
     file=open('present_students.txt',"a+")

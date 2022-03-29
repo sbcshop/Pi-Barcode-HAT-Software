@@ -7,7 +7,7 @@ import sys
 import time
 import RPi.GPIO as GPIO
 from lib import lcd1_14driver
-from PIL import Image,ImageDraw,Imagefont
+from PIL import Image,ImageDraw,ImageFont
 import serial
 import employee
 import ultrasonic
@@ -33,9 +33,9 @@ device = 0
 
 barcode = serial.Serial(port='/dev/ttyS0',baudrate = 9600,parity=serial.PARITY_NONE,stopbits=serial.STOPBITS_ONE,bytesize=serial.EIGHTBITS,timeout=1)
 
-font1 = Imagefont.truetype("font/font00.ttf",21)
-font2 = Imagefont.truetype("font/font00.ttf",16)
-font3 = Imagefont.truetype("font/font02.ttf",25)
+font1 = ImageFont.truetype("font/Font00.ttf",21)
+font2 = ImageFont.truetype("font/Font00.ttf",16)
+font3 = ImageFont.truetype("font/Font02.ttf",25)
 
 if not os.path.isfile("Library_books.txt"):  
     file=open('Library_books.txt',"a+")

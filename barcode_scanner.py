@@ -14,9 +14,9 @@ device = 0
 
 barcode = serial.Serial(port='/dev/ttyS0',baudrate = 9600,parity=serial.PARITY_NONE,stopbits=serial.STOPBITS_ONE,bytesize=serial.EIGHTBITS,timeout=1)
 
-font1 = ImageFont.truetype("font/font00.ttf",25)
-font2 = ImageFont.truetype("font/font00.ttf",16)
-font3 = ImageFont.truetype("font/font02.ttf",25)
+font1 = ImageFont.truetype("font/Font00.ttf",25)
+font2 = ImageFont.truetype("font/Font00.ttf",16)
+font3 = ImageFont.truetype("font/Font02.ttf",25)
 
 if not os.path.isfile("present_students.txt"):  
     file=open('present_students.txt',"a+")

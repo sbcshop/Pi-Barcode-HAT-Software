@@ -1,8 +1,5 @@
-import os
-import sys
 import time
 import spidev
-import logging
 import numpy as np
 
 class RaspberryPi:
@@ -57,11 +54,9 @@ class RaspberryPi:
         return 0
 
     def module_exit(self):
-        logging.debug("spi end")
         if self.SPI!=None :
             self.SPI.close()
         
-        logging.debug("gpio cleanup...")
         self.GPIO.output(self.RST_PIN, 1)
         self.GPIO.output(self.DC_PIN, 0)        
         self._pwm.stop()

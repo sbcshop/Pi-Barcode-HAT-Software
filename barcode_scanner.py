@@ -1,3 +1,8 @@
+'''
+This is the example code of scanning barcode/QR-code 
+Develop by Sb-components
+'''
+
 import import RPi.GPIO as GPIO
 import time
 import serial

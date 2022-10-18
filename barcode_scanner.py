@@ -1,8 +1,8 @@
-import RPi.GPIO as GPIO
+import import RPi.GPIO as GPIO
 import time
 import serial
 import os
-from lib import lcd1_14driver
+from lib import Pi_barcode
 from PIL import Image,ImageDraw,ImageFont
 
 

@@ -3,7 +3,7 @@ This is the example code for scanning barcode
 Develop by Sb-components
 
 '''
-from PIL import Image,ImageDraw,ImageFont
+from images import Image,ImageDraw,ImageFont
 import zero_barcode
 import time
 import sys

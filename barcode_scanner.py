@@ -8,7 +8,7 @@ import time
 import serial
 import os
 from lib import Pi_barcode
-from PIL import Image,ImageDraw,ImageFont
+from font import Image,ImageDraw,ImageFont
 
 
 RST = 27

@@ -19,7 +19,12 @@ First, you need to change the mode of the Pi Barcode HAT. Put Barcode HAT at the
 
 ## Use Pi Barcode Hat without Raspberry Pi( Via USB Cable )
 For this you need to scan below barcode settings
+
  <img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/img7.JPG" />
+  
+  For USB COM Mode sacan below barcode
+  
+  img src ="https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/usb_com_mode.PNG" />
   
  <img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/img5.JPG" />
 

@@ -1,5 +1,5 @@
-# zero_barcode.py
-# Python liberay for Zero Barcode Scanner and LCD 1.14"
+# Pi_barcode.py
+# Python liberay for Pi Barcode HAT Scanner and LCD 1.14"
 
 import serial
 import time

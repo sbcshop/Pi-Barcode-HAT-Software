@@ -24,7 +24,7 @@ For this you need to scan below barcode settings
   
   For USB COM Mode sacan below barcode
   
-  img src ="https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/usb_com_mode.PNG" />
+  <img src ="https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/usb_com_mode.PNG" />
   
  <img src= "https://github.com/sbcshop/Pi-Barcode-HAT/blob/main/images/img5.JPG" />
 

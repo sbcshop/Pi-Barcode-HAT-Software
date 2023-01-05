@@ -6,7 +6,7 @@ import os
 import sys 
 import time
 import RPi.GPIO as GPIO
-from lib import lcd1_14driver
+from lib import lcd1_14driver, Pi_barcode
 from PIL import Image,ImageDraw,ImageFont
 import serial
 import employee

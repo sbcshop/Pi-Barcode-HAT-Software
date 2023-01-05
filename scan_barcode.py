@@ -5,6 +5,7 @@ Develop by Sb-components
 '''
 from PIL import Image,ImageDraw,ImageFont
 import zero_barcode
+from lib import Pi_barcode
 import time
 import sys
 

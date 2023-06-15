@@ -4,7 +4,7 @@ Develop by Sb-components
 
 '''
 from PIL import Image,ImageDraw,ImageFont
-from lib import Pi_barcode, lcd1_14driver
+from lib import Pi_barcode
 import time
 import sys
 

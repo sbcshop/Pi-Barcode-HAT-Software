@@ -23,10 +23,10 @@ font2 = ImageFont.truetype("font/Font00.ttf",16)
 font3 = ImageFont.truetype("font/Font02.ttf",25)
 ###################################################
 
-barcode = zero_barcode.Barcode_Scanner(port,Baudrate)
+barcode = Pi_barcode.Barcode_Scanner(port,Baudrate)
 
 ######################### LCD Part ################
-disp = zero_barcode.lcd_display()
+disp = Pi_barcode.lcd_display()
 disp.Init()
 image = Image.new("RGB", (disp.width, disp.height), "WHITE")
 image1 = Image.open('pic/sb.jpg')	

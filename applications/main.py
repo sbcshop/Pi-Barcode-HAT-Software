@@ -6,7 +6,7 @@ import os
 import sys 
 import time
 import RPi.GPIO as GPIO
-from lib import lcd1_14driver, Pi_barcode
+from lib import Pi_barcode
 from PIL import Image,ImageDraw,ImageFont
 import serial
 import employee
@@ -43,7 +43,7 @@ if not os.path.isfile("Library_books.txt"):
     file.write("\r")
     file.close()
 
-disp = lcd1_14driver.LCD_1inch14()
+disp = Pi_barcode.LCD_1inch14()
 disp.Init()
 image2 = Image.new("RGB", (disp.width, disp.height), "WHITE")
 

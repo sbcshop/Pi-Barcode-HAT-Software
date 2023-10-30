@@ -10,11 +10,12 @@ import sys
 
 '''
 * write this in command "dmesg" in cmd of raspberry pi and see the port
-* if you use as HAT then your port is "ttyS0"
-* if you use as barcode hat via micr-usb then your port is ttyACM0,ttyACM1.... etc
+* if you use as HAT then your port is "ttyS0", 
+* if you use as barcode hat via micro-usb then your port is ttyACM0,ttyACM1.... etc, 
+* To see the working display, you will have to use the device as HAT. In USB mode display will not work.
 '''
 
-port = "/dev/ttyACM0"  # write port here for eg.ttyS0,ttyACM0,ttyACM1.... etc
+port = "/dev/ttyS0"  # write port here for eg.ttyS0,ttyACM0,ttyACM1.... etc
 Baudrate = 115200    # write baudrate here
 
 ######## Choose font for lcd display ##############

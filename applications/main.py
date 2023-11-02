@@ -43,7 +43,7 @@ if not os.path.isfile("Library_books.txt"):
     file.write("\r")
     file.close()
 
-disp = Pi_barcode.LCD_1inch14()
+disp = Pi_barcode.lcd_display()
 disp.Init()
 image2 = Image.new("RGB", (disp.width, disp.height), "WHITE")
 

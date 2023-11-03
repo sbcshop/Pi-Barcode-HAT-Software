@@ -259,12 +259,14 @@ class Barcode_Scanner(object):
         # If it's an ACKN, return true
         # Otherwise, return false
         ack_value = self.port.read()
+        '''
         if ord(ack_value) == 0x06:   # ACKN
             return True
         elif ord(ack_value) == 0x15: # NACK
             return False
         else:
             return False
+        '''
         
     # Change the serial baud rate for the barcode module
     def Select_baudrate(self, baud_rate):

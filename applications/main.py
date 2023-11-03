@@ -6,11 +6,13 @@ import os
 import sys 
 import time
 import RPi.GPIO as GPIO
+sys.path.append("..")
 from lib import Pi_barcode
 from PIL import Image,ImageDraw,ImageFont
 import serial
 import employee
 import ultrasonic
+
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)

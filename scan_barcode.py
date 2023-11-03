@@ -39,13 +39,6 @@ draw.text((20,5),"SCAN BARCODE", font = font1, fill = "BLUE")
 disp.ShowImage(image)
 #################################################
 
-##############Check barcode is detected or not ##
-if barcode.begin() == True:
-    print("\nThe Barcode is detected")
-else:
-    print("\nScanner not detected!")
-##################################################
-    
 data = ""
 print("\nScan the barcode!")
 print("\n")

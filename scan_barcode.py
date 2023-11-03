@@ -16,7 +16,7 @@ import sys
 '''
 
 port = "/dev/ttyS0"  # write port here for eg.ttyS0,ttyACM0,ttyACM1.... etc
-Baudrate = 115200    # write baudrate here
+Baudrate = 9600    # write baudrate here
 
 ######## Choose font for lcd display ##############
 font1 = ImageFont.truetype("font/Font00.ttf",25)
